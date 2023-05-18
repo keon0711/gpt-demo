@@ -54,5 +54,6 @@ public class GPTChatRestService {
     CompletionChatResponse response = CompletionChatResponse.of(chatCompletion);
     System.out.println(response.getMessages().get(0).getMessage());
     return response;
+
   }
 }
